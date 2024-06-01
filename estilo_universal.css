@@ -1,0 +1,74 @@
+/*Selector Universal*/
+*{
+margin: 0;
+padding: 0;
+color: aquamarine;
+font-size: 10px;
+}
+
+/*Selector de etiqueta*/
+
+h1{
+    color: blue;
+    margin: 10px;
+    font-size: 30px;
+}
+h2{
+    color: orange;
+    margin: 15px;
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+    
+}
+.texto{/*Selector de clase*/
+    font-size: 30px;
+    color: blueviolet;
+
+}
+
+#valor{/*Selector de identificación*/
+    color: brown;
+    font-size: 25px;
+    font-family: arial;
+}
+#valor1{
+    color: brown;
+    font-size: 25px;
+    font-family: arial;
+}
+div{ 
+    margin: 50px auto;
+    width: 400px;
+    border-style: solid;
+}
+div >p{/*Selector hijo*/
+    font-size: 15px;
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
